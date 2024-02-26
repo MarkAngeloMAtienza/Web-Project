@@ -1,0 +1,276 @@
+<!-- declares the document type and language -->
+<!DOCTYPE html>
+<!-- specifies the language of the document -->
+<html lang="en">
+<head>
+    <!--specifies the character encoding -->
+    <meta charset="UTF-8">
+    <!--sets compatibility mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <!--sets the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--sets the title of the document -->
+    <title>My Personal Webpage Project</title>
+    <!--links to an external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!--includes Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/494c3ba29d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- This is the header section -->
+    <div id="header">
+        <!-- This div contains the header content -->
+      <div class="contrainer">
+         <!-- This is the navigation bar -->
+        <nav>
+            <!-- This is the logo image -->
+            <img src="61205bda-bb84-48bf-9321-52dea25c0d60.png" class="logo">
+            <!-- This is the list of navigation links -->
+            <ul id="sidemenu">
+                 <!-- Home, About, Work, Projects, Contact link -->
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Work</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>  
+        <!-- This div contains the header text --> 
+        <div class="header-text">
+            <p></p>
+            <!-- Title with name -->
+            <h1>Hi, I'm <span>Mark</span><br>Angelo Atienza</h1>
+        </div>
+    </div>
+</div>
+<!------------about----------->
+
+<div id="about">
+    <!-- This div contains the about content, row -->
+    <div class="container">
+           <div class="row">
+            <!-- Column for image -->
+            <div class="about-col-1">
+                <!-- Image -->
+                <img src="Untitled design.png">
+            </div>
+            <!-- Column for text content -->
+            <div class="about-col-2">
+                <!-- Subtitle -->
+                <h1 class="sub-title">About Me</h1>
+                
+                <!-- Text content about the person -->
+                <p>I'm Mark Angelo Malabuyoc Atienza, born on July 13, 2004, in the coconut-laden area of Cabay, Tiaong, Quezon. I'm 19 years old now, the sole child of Maricar and Marben Atienza. One day, I aspire to be a web developer, and I'll work hard for it. My passion for music finds its home on the piano keys, and I'm always eager to explore new tunes. Beyond the world of melodies, I've set my sights on the exciting realm of web development. Join me on this journey as I navigate both the harmonies of the piano and the coding languages that bring websites to life.</p>
+            
+                <!-- Tab titles -->
+                <div class="tab-titles">
+                     <!-- Skills tab link -->
+                    <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                    <!-- Hobbies tab link -->
+                    <p class="tab-links"onclick="opentab('Hobbies')">Hobbies</p>
+                    <!-- Education tab link -->
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <!-- Tab contents -->
+                <div class="tab-contents active-tab" id="Skills">
+                   <!-- List of skills -->
+                    <ul>
+                        <!-- Skill item -->
+                    <li><span>Language Spoken</span><br>Tagalog Only</li>
+                    <li><span>Cooking</span><br>Fried egg, hotdog, chicken</li>
+                    <li><span>Photography</span><br>Photo editing</li>
+                </ul>
+                </div>    
+                <div class="tab-contents" id="Hobbies">
+                    <!-- List of hobbies -->
+                <ul>
+                    <!-- Hobby item -->
+                    <li><span>Playing Games</span><br>Mobile Legends / Valorant</li>
+                    <li><span>Favorite Movies</span><br>My Perfect You / All the Bright Places</li>
+                    <li><span>Favorite Music</span><br>Aubrey, IF, Lost without your love</li>
+                    <li><span>Favorite Books</span><br>The Art of Being ALONE, Surrounded by idiots</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <!-- List of education -->
+                <ul>
+                      <!-- Education item -->
+                    <li><span>BACHELOR OF SCIENCE</span><br>INFORMATION TECHNOLOGY</li>
+                    <li><span>BSIT</span><br>2nd Year College</li>
+                    <li><span>2010 - 2016</span><br>Cabay Elementary School</li>
+                    <li><span>2016 - 2021</span><br>Cabay National High School</li>
+                    <li><span>2021 - 2025</span><br>Laguna State Polytechnic University</li>
+                </ul>
+              </div>
+           </div>
+        </div>
+    </div>
+</div>
+<!------------services------------>
+<div id="services">
+      <!-- This div contains the services content -->
+    <div class="container">
+        <!-- Subtitle for services -->
+        <h1 class="sub-title">My Work</h1>
+        <!-- List of services -->
+        <div class="services-list">
+             <!-- Service item -->
+            <div>
+                <!-- Icon for packaging service -->
+                <i class="fa-solid fa-boxes-packing"></i>
+                <!-- Title for packaging service -->
+                 <h2>Packaging</h2>
+                 <!-- Description for packaging service -->
+                 <p>I worked at Cosmetics and Household Solutions Inc. as a packager during last year's vacation in Lipa City, Batangas. I was hired by my dad to help with packaging because I also wanted to earn money. My responsibilities included packaging all the products my dad made, which were dishwashing liquid and fragrances.</p>
+            </div>
+            <div>
+                <!-- Icon for social media management services -->
+                <i class="fa-brands fa-square-facebook"></i>
+                <!-- Title for social media management services -->
+                <h2>Social Media Management</h2>
+                <!-- Description for social media management services -->
+                <p>I also had a sideline in social media management because my aunt had a lot of work and couldn't handle everything. She assigned me one of her tasks, which is social media management. My role here is to post every day on my client's page. She provides me with pictures and tells me what to include, like captions, hashtags, and any necessary picture edits according to her preferences.</p>
+               
+           </div>
+           <div>
+            <!-- Icon for invoicing services -->
+            <i class="fa-solid fa-receipt"></i>
+            <!-- Title for invoicing services -->
+            <h2>Invoicing</h2>
+            <!-- Description for invoicing services -->
+            <p>Currently, I have a job in invoicing where I list all the work hours and wages of the workers every day. After work, I send the client the detailed information.</p>
+       </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio------------>
+<div id="portfolio">
+    <!-- Portfolio section -->
+    <div class="container">
+        <!-- Heading for portfolio section -->
+        <h1 class="sub-title">I want this projects</h1>
+        <!-- Container for list of works/projects -->
+        <div class="work-list">
+             <!-- Individual work/project -->
+            <div class="work">
+                 <!-- Image for the project -->
+                <img src="Untitled design (4).png">
+                <!-- Overlay layer for additional information --> 
+                <div class="layer">
+                    <!-- Title of the project -->
+                    <h3>Web Developer</h3>
+                    <!-- Description of the project -->
+                    <p>I want to become a web developer someday for several reasons. Firstly, the high salary and demand in the field are enticing factors. Additionally, I'm eager to continue learning and expanding my knowledge within the realm of web development.</p>
+                    
+                </div>
+            </div>
+            <!-- Another individual work/project -->
+            <div class="work">
+                    <!-- Image for the project -->
+                <img src="Untitled design (5).png">
+                <!-- Overlay layer for additional information --> 
+                <div class="layer">
+                    <!-- Title of the project -->
+                    <h3>Data Security</h3>
+                     <!-- Description of the project -->
+                    <p>I want to become a data security professional someday for several reasons. Firstly, the high demand for data security experts and the increasing importance of protecting sensitive information make it a promising career choice. Additionally, I am passionate about ensuring the confidentiality, integrity, and availability of data, and I am excited about the continuous learning and challenges that come with this field.</p>
+                    
+                </div>
+            </div>
+            <!-- Another individual work/project -->
+            <div class="work">
+                <!-- Image for the project -->
+                <img src="Untitled design (6).png">
+                 <!-- Overlay layer for additional information -->
+                <div class="layer">
+                    <!-- Title of the project -->
+                    <h3>Cyber Security</h3>
+                    <!-- Description of the project -->
+                    <p>I'm also interested in cyber security. It's all about protecting digital systems and information from cyber threats like hacking and malware. Plus, it offers endless chances to learn and tackle new challenges in the ever-evolving landscape of online security</p>
+                    
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<!-----------------contact-------------->
+<div id="contact">
+    <!-- Container to hold contact content -->
+    <div class="container">
+        <!-- Row for layout -->
+        <div class="row">
+        <!-- Left section for contact details -->
+            <div class="contact-left">
+                <!-- Title for contact section -->
+                <h1 class="sub-title">Let's Talk</h1>
+                  <!-- Email address -->
+                <p><i class="fa-solid fa-paper-plane"></i> angeloatienza167@gmail.com</p>
+                <!-- Phone number -->
+                <p><i class="fa-solid fa-phone"></i> 09924804387</p>
+                <p><i class="fa-solid fa-location-dot"></i> Cabay Tiaong, Quezon</p>
+                <!-- Social media icons -->
+                <div class="social-icons">
+                    <!-- Facebook icon with link -->
+                    <a href="https://www.facebook.com/MarkAngelo132004?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <!-- Twitter icon with link -->
+                    <a href="https://x.com/tapgelogs?s=21"><i class="fa-brands fa-twitter-square"></i></a>
+                    <!-- Instagram icon with link -->
+                    <a href="https://www.instagram.com/mark_atnz?igsh=MXF6dG4xdDU3aXh4eA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright section -->
+    <div class="copyright">
+        
+        <em> MARK  ANGELO  M.  ATIENZA </em>
+    </div>
+</div>
+<!--ito ay para kapag cinlick mo yung hobbies mag vivisible and mag iinvisible naman yung huling pinindot-->
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwGG3BL9qbaPA7YOYzzTD-KDmHjUofaIdMDHSrP6Kk1UHHR89H9teHsU0TrChq-Mw1e/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
